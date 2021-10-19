@@ -56,7 +56,7 @@ const Register = () => {
                   {...register("name")}
                 />
                 {errors.name?.message && (
-                  <small className="error">{errors.email.message}</small>
+                  <small className="error">{errors.name.message}</small>
                 )}
               </FloatingLabel>
               <FloatingLabel label="Email" className={`${classes.label} mb-3`}>
