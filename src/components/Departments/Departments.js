@@ -12,7 +12,7 @@ const Departments = () => {
     <section className={classes.departmentsContainer}>
       <div className="container">
         <h2 className="section-title">Popular Departments</h2>
-        <div className="row align-items-center">
+        <div className="row ">
           <div className="col-xl-2  col-md-4 col-sm-6">
             <div className={classes.department}>
               <div className={classes.department_img}>

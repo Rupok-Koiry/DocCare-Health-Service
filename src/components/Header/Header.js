@@ -7,6 +7,7 @@ import { AuthContext } from "../../store/auth-context";
 const Header = () => {
   const { user, logout } = useContext(AuthContext);
   const history = useHistory();
+
   return (
     <header className="sticky-top">
       <Navbar bg="light" expand="lg">
@@ -47,9 +48,21 @@ const Header = () => {
               </Nav.Link>
               {/* if user login then show logout otherwise show login */}
               {user.email ? (
-                <button className={`btn ${classes.loginBtn}`} onClick={logout}>
-                  {user.displayName} Logout
-                </button>
+                <>
+                  <button
+                    className={`btn ${classes.loginBtn}`}
+                    onClick={logout}
+                  >
+                    {user.displayName} Logout
+                  </button>
+                  {user.photoURL && (
+                    <img
+                      src={user.photoURL}
+                      alt="user"
+                      className={classes.userImg}
+                    />
+                  )}
+                </>
               ) : (
                 <button
                   className={`btn ${classes.loginBtn}`}

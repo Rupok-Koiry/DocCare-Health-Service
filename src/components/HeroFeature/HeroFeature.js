@@ -15,9 +15,8 @@ const HeroFeature = () => {
               <FaHeartbeat />
               <h3>Hospitality </h3>
               <p>
-                Hospitality is the relationship between a guest and a host,
-                wherein the host receives the guest with some amount of
-                goodwill.
+                Hospitality is the relationship between us and a patient,
+                wherein we receive the patients with some amount of goodwill.
               </p>
             </div>
           </div>

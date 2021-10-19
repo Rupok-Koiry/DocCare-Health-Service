@@ -50,8 +50,12 @@ const Appointment = () => {
               <form className="d-flex flex-wrap justify-content-between">
                 <select>
                   <option value="value1">Select Department</option>
-                  <option value="value2">Dentist</option>
-                  <option value="value3">Cardiologist</option>
+                  <option value="cardiology">Cardiology</option>
+                  <option value="eye">Eye Care</option>
+                  <option value="neurology">Neurology</option>
+                  <option value="plastic">Plastic Surgery</option>
+                  <option value="urology">Urology</option>
+                  <option value="dental">Dental Care</option>
                 </select>
                 <select>
                   <option>Select Doctor</option>

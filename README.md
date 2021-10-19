@@ -8,6 +8,6 @@ A single page health care related website where people are able to find the top 
 
 - DocCare website is created with Firebase, React & Bootstrap framework
 - This website is very much easy navigating for the website visitors
-- Registered user can book appoinment with the specialized doctors
+- Registered user can book appointment with the specialized doctors
 - Registered user will be notified via email if there are any special update
 - Visitors can find out the latest news about their health care

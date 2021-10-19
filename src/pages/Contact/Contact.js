@@ -20,7 +20,7 @@ const Contact = () => {
               <h3>For any queries and support</h3>
               <div className={classes["contact-info-item"]}>
                 <i className="fas fa-location-arrow"></i>
-                <h4>Company Location</h4>
+                <h4>Location</h4>
                 <p>Modhubagh,Moghbazar, Dhaka-1217</p>
               </div>
               <div className={classes["contact-info-item"]}>
