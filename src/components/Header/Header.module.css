@@ -1,0 +1,64 @@
+header {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+.logoContainer span {
+  font-size: 30px;
+  color: #5db2ff;
+  font-weight: 700;
+}
+.navLinkContainer {
+  align-items: center;
+}
+.navLinkContainer a {
+  text-align: center;
+  margin-right: 18px;
+  color: #727272;
+  font-weight: 500;
+  padding: 0 0 0 0;
+}
+.navLinkContainer a:last-of-type {
+  margin-right: 36px;
+}
+@media screen and (max-width: 992px) {
+  .navLinkContainer a {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  .navLinkContainer a:last-of-type {
+    margin-right: 0;
+  }
+}
+.navLinkContainer a::after {
+  content: "";
+  display: block;
+  width: 3.8rem;
+  height: 2px;
+  background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+  transform: scale(0);
+  transition: all 0.5s ease;
+  margin: 0.5rem auto 0;
+}
+.navLinkContainer a:hover::after,
+.navLinkContainer a.active::after {
+  transform: scale(1);
+}
+
+.loginBtn {
+  background: #009dff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 8px 22px;
+  transition: all 0.3s ease;
+  outline: none;
+  font-weight: 500;
+}
+.loginBtn:hover {
+  background: #fff;
+  color: #009dff;
+  border: 1px solid #009dff;
+}

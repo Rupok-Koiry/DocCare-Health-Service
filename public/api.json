@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Eye Care",
+    "image": "/images/eye-care.webp",
+    "doctor": "Dr. Michael Barley",
+    "description": "Primary eye care is the provision of appropriate, accessible, and affordable care that meets patients' eye care needs in a comprehensive and competent manner. Primary eye care provides the patient with the first contact for eye care as well as a lifetime of continuing care."
+  },
+  {
+    "id": 2,
+    "title": "Physical Therapy",
+    "image": "/images/physical-therapy.webp",
+    "doctor": "Dr. Ian Smith",
+    "description": "Physical therapy, also known as physiotherapy, is one of the allied health professions. It is provided by physical therapists who promote, maintain, or restore health through physical examination, diagnosis, prognosis, patient education, physical intervention, rehabilitation, disease prevention and health promotion"
+  },
+  {
+    "id": 3,
+    "title": "Dental Care",
+    "image": "/images/dental-care.webp",
+    "doctor": "Dr. Sara Parker",
+    "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery."
+  },
+  {
+    "id": 4,
+    "title": "Diagnostic Test",
+    "image": "/images/diagnostic-test.webp",
+    "doctor": "Dr. Lloyd Wilson",
+    "description": "Every time you go to a doctor with pain symptoms or an injury, chances are, your doctor will request that you undergo diagnostic testing. More than 13 billion diagnostic tests are performed every year in the United States. Diagnostic tests are used to confirm or rule out conditions and diseases."
+  },
+  {
+    "id": 5,
+    "title": "Skin Surgery",
+    "image": "/images/skin-surgery.webp",
+    "doctor": "Dr. Sara Parker",
+    "description": "Skin surgery is routinely performed by dermatologists and plastic surgeons, mostly using local anaesthesia. Types of skin surgery include: Skin biopsy (punch biopsy, shave biopsy, incisional biopsy and excision biopsy) Electrosurgery."
+  },
+  {
+    "id": 6,
+    "title": "Surgery Service",
+    "image": "/images/surgery-service.webp",
+    "doctor": "Dr. Michael Barley",
+    "description": "Surgical service professionals specialize in the treatment of injury, disease, and deformity through surgical procedures. Using a variety of instruments, the surgeon, supported by the surgical team, corrects physical deformities and repairs bone and tissue due to illness or injury."
+  }
+]

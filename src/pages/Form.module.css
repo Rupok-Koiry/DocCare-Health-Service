@@ -1,0 +1,72 @@
+.formContainer {
+  margin-top: 35px;
+}
+
+.form {
+  border: 1px solid #ababab;
+  border-radius: 4px;
+  padding: 30px 42px;
+}
+.form h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 35px;
+  color: #000000;
+}
+.remember {
+  font-weight: 500;
+}
+.forgotPassword {
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  color: #5db2ff;
+}
+.forgotPassword:hover {
+  color: #5db2ff;
+  text-decoration: none;
+}
+.haveAccount {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.formSubmitBtn {
+  width: 100%;
+  background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+  color: #fff;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 30px 0 15px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+.formSubmitBtn:hover {
+  background: #fff;
+  color: #009dff;
+  border: 1px solid #009dff;
+}
+.input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-weight: 500;
+}
+.input:focus {
+  box-shadow: none;
+}
+.label {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+@media only screen and (max-width: 576px) {
+  .forgotPassword {
+    margin-top: 12px;
+  }
+}

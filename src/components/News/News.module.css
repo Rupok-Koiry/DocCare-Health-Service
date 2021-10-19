@@ -1,0 +1,48 @@
+.news {
+  padding: 60px 0;
+}
+
+.newsCard {
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.news img {
+  transition: all 0.3s ease-in-out;
+}
+.news img:hover {
+  transform: scale(1.12);
+}
+.newsBody h5 {
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin: 12px 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.newsBody h5:hover {
+  color: #009dff;
+}
+.newsBody p {
+  color: #707070;
+  font-weight: 500;
+}
+.newsBody svg {
+  fill: #009dff;
+}
+.newsBtn {
+  color: #5db2ff;
+  padding: 9px 24px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #5db2ff;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.newsBtn:hover {
+  background: #5db2ff;
+  color: #fff;
+  border: 1px solid transparent;
+}
