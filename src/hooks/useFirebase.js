@@ -77,6 +77,7 @@ const useFirebase = () => {
     createUserWithEmailAndPassword(auth, email, password)
       .then(() => {
         updateUser(name);
+        window.location.reload();
       })
       .catch((error) => {
         setError(error.message);
