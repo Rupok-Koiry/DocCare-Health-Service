@@ -40,6 +40,7 @@ const Register = () => {
   const onSubmit = (formData) => {
     registerUser(formData.name, formData.email, formData.password);
   };
+
   return (
     <section
       className={`${classes.formContainer} d-flex justify-content-center align-items-center`}

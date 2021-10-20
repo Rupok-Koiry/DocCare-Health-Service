@@ -1,6 +1,6 @@
 # DocCare
 
-A single page health care related website where people are able to find the top specialized doctors for their related health issue.
+A single page health care related website where people are able to find the top specialized doctors for their related health issue. An user can also register and book appointment with the doctors and also be notified via email about latest updated health care news.
 
 ## Live link of DocCare: [https://doccare-health-service.web.app](https://doccare-health-service.web.app)
 
